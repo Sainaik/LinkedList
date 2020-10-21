@@ -20,6 +20,10 @@ namespace LinkedList_DS
             linkedList.inserAt(2,30);
 
             linkedList.Display();
+
+            linkedList.DeleteAtBeginning();
+
+            linkedList.Display();
         }
     }
 }

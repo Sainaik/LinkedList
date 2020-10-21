@@ -74,6 +74,19 @@ namespace LinkedList_DS
 
         }
 
+        internal void DeleteAtBeginning()
+        {
+            Node temp = this.head;
+            if (temp == null)
+            {
+                Console.WriteLine("List is empty");
+                return;
+            }
+
+            head = temp.next;
+            Console.WriteLine($"Deleted Element {temp.data} at Beginning");
+        }
+
         internal int GetCount()
         {
             Node temp = this.head;
