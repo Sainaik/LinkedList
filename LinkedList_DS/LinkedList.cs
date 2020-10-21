@@ -108,6 +108,43 @@ namespace LinkedList_DS
 
         }
 
+        internal int Search(int data)
+        {
+            Console.WriteLine("Searching .......");
+
+            Node temp = this.head;
+            if (temp == null)
+            {
+                Console.WriteLine("List is empty");
+                return 0;
+            }
+            else
+            {
+                int nodeNumber = 1;
+                bool isfound = false;
+                while (temp != null)
+                {
+                    if ((temp.data == data))
+                    {
+                        isfound = true;
+                        break;
+                    }
+                    nodeNumber++;
+                    temp = temp.next;
+                }
+                if (isfound == true)
+                {
+                    Console.WriteLine($"Data element {data} is found in Node {nodeNumber}");
+                    return nodeNumber;
+                }
+                else
+                {
+                    Console.WriteLine($"Data element {data} is NOT found");
+                    return 0;
+                }
+            }
+        }
+
         internal int GetCount()
         {
             Node temp = this.head;

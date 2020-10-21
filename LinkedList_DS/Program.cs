@@ -24,6 +24,12 @@ namespace LinkedList_DS
             linkedList.DeleteAtBeginning();
 
             linkedList.Display();
+
+            linkedList.DeleteAtEnd();
+
+            linkedList.Display();
+
+            linkedList.Search(30);
         }
     }
 }
