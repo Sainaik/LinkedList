@@ -1,0 +1,13 @@
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\bin\Debug\netcoreapp3.1\LinkedList_DS.exe
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\bin\Debug\netcoreapp3.1\LinkedList_DS.deps.json
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\bin\Debug\netcoreapp3.1\LinkedList_DS.runtimeconfig.json
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\bin\Debug\netcoreapp3.1\LinkedList_DS.runtimeconfig.dev.json
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\bin\Debug\netcoreapp3.1\LinkedList_DS.dll
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\bin\Debug\netcoreapp3.1\LinkedList_DS.pdb
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.csprojAssemblyReference.cache
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.AssemblyInfoInputs.cache
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.AssemblyInfo.cs
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.csproj.CoreCompileInputs.cache
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.dll
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.pdb
+C:\Users\saiku\source\repos\LinkedList_DS\LinkedList_DS\obj\Debug\netcoreapp3.1\LinkedList_DS.genruntimeconfig.cache
