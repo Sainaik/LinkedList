@@ -38,6 +38,10 @@ namespace LinkedList_DS
 
             linkedList.Display();
 
+            linkedList.DeleteAfterElement(30);
+
+            linkedList.Display();
+
 
         }
     }

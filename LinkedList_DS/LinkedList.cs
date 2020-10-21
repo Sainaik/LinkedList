@@ -118,6 +118,48 @@ namespace LinkedList_DS
 
         }
 
+        internal void DeleteAtPosition(int position)
+        {
+            int count = GetCount();
+            int currentPosition = 1;
+
+            if (position == 0 || position > count)
+            {
+                Console.WriteLine($"Invalid Position!! Length of List is:{count}");
+            }
+            else if (position == 1)
+            {
+                this.DeleteAtBeginning();
+            }
+            else if (position == count)
+            {
+                this.DeleteAtEnd();
+            }
+            else
+            {
+                Node temp = head;
+                Node previous = null;
+
+                while (currentPosition++ < position)
+                {
+                    previous = temp;
+                    temp = temp.next;
+                }
+
+                Console.WriteLine($"Deleted Element {temp.data} at position {position}");
+
+                previous.next = temp.next;
+
+            }
+
+        }
+
+        internal void DeleteAfterElement(int data)
+        {
+            int position = this.Search(data);
+            this.DeleteAtPosition((position + 1));
+        }
+
         internal int Search(int data)
         {
             Console.WriteLine("Searching .......");
