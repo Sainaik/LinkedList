@@ -42,6 +42,59 @@ namespace LinkedList_DS
         }
 
 
+        internal void inserAt( int position, int data)
+        {
+            int count = GetCount();
+            int currentPosition = 1;
+
+            if (position == 0 || position > count)
+            {
+                Console.WriteLine($"Invalid Position!! Length of List is:{count}");
+            }
+            else
+            {
+                Node newNode = new Node(data);
+                Node temp = head;
+                Node previous = null;
+
+                while (currentPosition++ < position)
+                {
+                    previous = temp;
+                    temp = temp.next;
+                }
+
+                previous.next = newNode;
+
+                newNode.next = temp;
+
+
+                Console.WriteLine($"Data {newNode.data} is added to LinkedList at position {position}");
+
+            }
+
+        }
+
+        internal int GetCount()
+        {
+            Node temp = this.head;
+            int count = 0;
+            if (temp == null)
+            {
+                return count;
+            }
+            else
+            {
+                while (temp != null)
+                {
+                    count++;
+                    temp = temp.next;
+                }
+                return count;
+            }
+
+        }
+
+
         internal void Display()
         {
             Console.WriteLine("\nLinked List Elements:");
