@@ -42,6 +42,11 @@ namespace LinkedList_DS
 
             linkedList.Display();
 
+            Console.WriteLine("Sorting Linked List.......");
+            linkedList.head = linkedList.ListSort(linkedList.head);
+
+            linkedList.Display();
+
 
         }
     }
