@@ -11,8 +11,6 @@ namespace LinkedList_DS
             LinkedList linkedList = new LinkedList();
 
             linkedList.Add(56);
-
-
             linkedList.Add(70);
 
             linkedList.Display();
@@ -29,7 +27,18 @@ namespace LinkedList_DS
 
             linkedList.Display();
 
+
             linkedList.Search(30);
+
+            linkedList.inserAt(1, 56);
+
+            linkedList.Add(40);
+
+            linkedList.Add(70);
+
+            linkedList.Display();
+
+
         }
     }
 }

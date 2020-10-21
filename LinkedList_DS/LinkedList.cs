@@ -45,14 +45,24 @@ namespace LinkedList_DS
         internal void inserAt( int position, int data)
         {
             int count = GetCount();
-            int currentPosition = 1;
+            
 
             if (position == 0 || position > count)
             {
                 Console.WriteLine($"Invalid Position!! Length of List is:{count}");
             }
+            if(position == 1 )
+            {
+                Node newNode = new Node(data);
+                Node temp = this.head;
+                newNode.next = temp;
+                this.head = newNode;
+                Console.WriteLine($"Data {newNode.data} is added to LinkedList at position {position}");
+
+            }
             else
             {
+                int currentPosition = 1;
                 Node newNode = new Node(data);
                 Node temp = head;
                 Node previous = null;
